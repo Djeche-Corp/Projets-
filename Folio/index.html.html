@@ -1,0 +1,313 @@
+<!doctype htm>
+<html>
+<head>
+    <title>Mon Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width   initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        nav li{
+            list-style-type: none;
+            float: left;
+            margin: 0px 0px 0px 100px;
+            padding: 0px 0px 0px  0px;
+        }
+        nav ul{
+            margin: auto;
+            padding: 0px 0px 0px 0px;
+        }
+        nav a{
+            display: inline-block;
+            text-decoration: none;
+            margin: 0px 0px 0px 300px;
+            padding: 0px 0px 0px  0px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+       nav{
+            display: table;
+            margin: 0px;
+        }
+         a:hover{
+            text-decoration: underline;
+            transition: transform 0.5s;
+            transition:  scale(1.2);
+        }
+        img{
+            width: 400px;
+            height: 500px;
+        }
+        .Presentation{
+            display: flex;
+            background-color: rgb(37, 35, 35);
+            
+        }
+        p{
+            margin: 20px 60px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .Competences{
+            display: flex;
+            background-color: rgb(37, 35, 35);
+            padding: 40px 50px;
+            margin: 20px 0px 0px;
+        }
+        .Competences2{
+            display: flex;
+            background-color: rgb(37, 35, 35);
+            padding: 40px 80px;
+            margin: 0px 0px 0px;
+        }
+        .Loisirs{
+            display: flex;
+            padding: 30px 90px;
+            margin: 20px 0px 0px ;
+            background-color:rgb(37, 35, 35);
+            color: white;
+        }
+        h1,h2,h3,h4,h5,h6{
+            text-decoration: underline;
+            font-size: 20px;
+            color: yellowgreen;
+        }
+        .lettre{
+            font-size: 15px;
+        }
+        .animation{
+            height: 35px;
+            float: right;
+            overflow: hidden;
+            span{
+                color: yellowgreen;
+                display: block;
+                animation: rotateSpin 10s infinite;
+            }
+        }
+        .navigation{
+            padding: 30px 90px;
+            margin: 20px 0px 0px ;
+        }
+        .contact{
+            width: 40px;
+            height: 40px;
+            padding: 40px 60px 0px 300px;
+        }
+        @keyframes rotateSpin{
+            10%{-webkit-transform: translateY(-102%);
+            transform: translateY(-102%);
+            }
+            25%%{-webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+            }
+            35%{-webkit-transform: translateY(-202%);
+            transform: translateY(-202%);
+            }
+            50%{-webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+            }
+            60%{-webkit-transform: translateY(-302%);
+            transform: translateY(-302%);
+            }
+            75%{-webkit-transform: translateY(-300%);
+            transform: translateY(-300%);
+            }
+            85%{-webkit-transform: translateY(-402%);
+            transform: translateY(-402%);
+            }
+            100%{-webkit-transform: translateY(-400%);
+            transform: translateY(-400%);
+            }
+        }
+        @media screen and (min-width:50px) and (max-width:680px){
+            body{
+               font-size: 10px;
+               color: white;
+               transition: transform 1.2;
+               transition: scale(1.2);
+            }
+            img{
+                width: 200px;
+                height: 300px;
+              display: inline-grid;
+            }
+            .Loisirs{
+               padding: 30px 0px 0px 0px;
+               margin: 30px 0px 0px 0px;
+            }
+            .dfk{
+                width: 115px;
+                height: 150px;
+            }
+            p{
+                font-size: 13px;
+                margin: auto;
+                padding: 10px 0px 0px 0px;
+            }
+             a{
+                font-size: 15px;
+            }
+            h1,h2,h3,h4,h5,h6{
+                color: yellowgreen;
+            }
+            nav a{
+               float: left;
+            text-decoration: none;
+            margin: 0px 0px 0px 150px;
+            padding: 0px 0px 0px 0px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .contact{
+            width: 20px;
+            height: 20px;
+            padding: 40px 60px 0px 30px;
+        }
+        }
+    </style>
+</head>
+<body>
+<div class="navigation">
+    <nav>
+       <ul>
+        <li>
+             <a href="#" target="_blank">Acceuil</a>
+        </li>
+        <li>
+            <a href="Competences.html" target="_blank">Competences</a>
+        </li>
+        <li>
+            <a href="Loisirs.html" target="_blank">Loisirs</a>
+        </li>
+    </nav>
+</div>
+</fieldset>
+<div class="Presentation">
+    <div class="Photo">
+    <img src="Presentation.jpg" alt="" class="Teuf">
+    </div>
+    <div class="Text">
+       <p> Nom : Djeche</p>
+
+ <p>Prénom : Franck Kevin</p>
+
+<p>Émail : djechefranck@gmail.com</p>
+<p>Date de naissance : 02/02/2002</p>
+<p>Ville : Douala</p>
+<p>Numéro : +23769420509</p>
+<p>Bonjour, je suis Djeche Franck Kevin, un développeur web
+passionné et expérimenté.</p> <p>Je suis né le 02 février 2002 à Cameroun, où j'ai
+passe ma majorite de ma vie.</p> <p>Mais competences sont larges et diverces,car  je<strong> maitrise les langagesde programmations et des logiciels tels que:<div class="animation">
+    <span class="html">HTML</span>
+    <span class="html">HTML</span>
+    <span class="css">CSS</span>
+    <span class="python">PYTHON</span>
+    <span class="javascriptl">JAVASCRIPT</span>
+    <span class="figma">FIGMA</span>
+    <span class="canva">CANVA</span>
+</div> 
+</strong>
+</p>
+    </div>
+</div>
+<div class="Competences">
+    <div class="html">
+        <h1>HTML</h1>
+        <p class="lettre">J’ai une maîtrise approfondie en
+HTML.</p><p class="lettre">je suis capable de créer un site
+structurécoherent et fonctionnelle</p>
+    </div>
+    <div class="css">
+        <h2>CSS</h2>
+        <p class="lettre">J’ai une maîtrise approfondie en
+CSS.</p><p class="lettre">je suis capable de créer un site
+structurécoherent et fonctionnelle</p>
+
+    </div>
+    <div class="python">
+        <h3>PYTHON</h3>
+        <P class="lettre">J’ai une maîtrise approfondie en
+PYTHON.</P><p class="lettre">je peux creer des logiciels,des
+programmes informatiques, et des
+applications web.</p>
+
+    </div>
+</div>
+    <div class="Competences2">
+    <div class="javascript">
+        <h4>JAVASCRIPT</h4>
+       <p class="lettre"> J’ai une maîtrise approfondie en
+JavaScript.</P> <p class="lettre">je peux creer des
+logiciels,des programmes
+informatiques, et des applications
+web.</p>
+
+    </div>
+    <div class="figma">
+        <h5>FIGMA</h5>
+        <p class="lettre">J’ai une maîtrise approfondie de
+FIGMA.</P><p class="lettre"> je peux realiser des maquettes
+de site web et d'application web.</p>
+    </div>
+    <div class="canva">
+        <h6>CANVA</h6>
+       <p class="lettre"> J’ai une maîtrise approfondie de
+CANVA.</P><p class="lettre"> je peux realiser des maquettes
+de site web et d'application web, des logos,montage photos et videos et bien d'autres</p>
+    </div>
+</div>
+<div class="Loisirs">
+    <div class="foot">
+        <img src="Foot.jpg" alt="" class="dfk">
+        <p>FOOTBALL</p>
+        Je suis un passionner de football ,dans
+ce sport je joue au poste de milieu de
+terrain(OFFENSIF)
+    </div>
+    <div class="Natation">
+        <img src="Piscine.jpg" alt="" class="dfk">
+        <p>NATATION</p>
+        Je suis un passionner de la natation ,car celle-ci rend souble
+        ,augmente le cardio et aide a la maitrise de sa respiration
+    </div>
+    <div class="billard">
+        <img src="Billard.jpg" alt="" class="dfk">
+        <p>BILLARD</p>
+        Je suis un passionner de billard ,je joue bien 
+        et la plus part du temps ces avec mes amis
+    </div>
+    <div class="dance">
+        <img src="Dance.jpg" alt="" class="dfk">
+        <p>DANCE</p>
+        J’aime beaucoup la dance ,j’ai fais
+mes debut tres jeune,j’ai été jusqua
+etre dans un groupes de dance tres
+connu a new-bell. Nous nous
+appelions LES ANGES NOIRS
+ </div>
+</div>
+
+<div class="Contacts"></div>
+<a href="https://wa.me/237653946647">
+    <img src="zap.jpg" alt=""  class="Contact">
+</a>
+<a href="https://www.facebook.com/profile.php?id=61564915408002">
+    <img src="facabook.png" alt=""  class="Contact">
+</a>
+<a href="https://www.linkedin.com/in/
+franck-kevin-djeche-86a02331b
+">
+    <img src="linkedin.png" alt=""  class="Contact">
+</a>
+<a href="https://www.djechefranck@gmail.com">
+    <img src="email.png" alt=""  class="Contact">
+</a>
+</body>
+</html>

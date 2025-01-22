@@ -1,0 +1,175 @@
+/*GENERAL*/
+h1
+{ 
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2 i
+{
+    color: rgb(127, 221, 206); 
+    text-transform: uppercase;
+    font-size: 25px;
+}
+h2 ul li
+{
+    color: rgba(100, 100, 64, 0.923);
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+}
+h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(11, 198, 52);
+}
+p
+{
+    font-size: 20px;
+    color: aqua;
+}
+.clean
+{
+    clear:both
+}
+.wrapper
+{
+    width: 180px,5px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: rgb(189, 184, 184);
+}
+/*HEADER*/
+header h1
+{
+    height: 0 auto;
+   font-style: italic;
+   font-size: 45px;
+   text-align: center; 
+}
+
+/*CARROUSEL*/
+.carrousel
+{
+    position: relative;
+    overflow: hidden;
+}
+.carrousel .image-1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 600px;
+    transition: transform 0.7s ease-in-out;
+}
+
+.carrousel .image-2
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	height: 600px;
+	transition: transform 0.7s ease-in-out;	
+}
+
+.carrousel .image-3
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	height: 600px;
+	transition: transform 0.7s ease-in-out;	
+}
+.slide-item
+{
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.fleches
+{
+    position: absolute;
+    width: 100%;
+    padding-left: 10px;
+    top: 300px;
+    color: rgb(68, 146, 214);
+    cursor: pointer;
+}
+#droite
+{
+    float: right;
+    padding-right: 20px;   
+}
+/*ARTICLE*/
+#article h6
+{
+    text-align: center;
+    font-size: 35px;
+}
+#article p
+{
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+}
+#article button
+{
+    background-color: orange;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+    width: 120px;
+    line-height: 55px;
+    cursor: pointer;
+}
+#article button:hover
+{
+    background-color: #02b8dd;
+}
+
+/*FOOTER*/
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer a
+{ 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 20px;
+    float: center;
+}
+footer a:hover
+{ 
+    background-color: #02b8dd;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px){
+	#toggle-btn{ display: block }
+    nav ul{
+        opacity: 0;
+        flex-direction: column;
+        width: 250px;
+        padding: 0;
+        top: 225px;
+        left: calc(50% - 125px);
+    }
+    .un, .deux{ grid-column: span 2; }
+}
+
+@media screen and (min-width: 901px){
+    nav ul{ opacity: 1 !important; }
+}
+
+@media screen and (max-width: 580px){
+	.titre { justify-content: space-between; }
+    .titre h3{ font-size:  14px; }
+    .titre img{ width: 220px; }
+    .card{ grid-column: span 3;}	
+}
