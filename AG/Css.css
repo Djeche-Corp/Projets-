@@ -340,13 +340,6 @@ body{
                  
                }
             
-
-
-
-
-
-
-
        @media screen and (max-width: 900px) {
         body{
             background-color: black;
@@ -593,13 +586,6 @@ body{
                  
                }
             }
-
-
-
-
-
-
-
 
              @media screen and (min-width: 1225px) and ( max-width: 1723px) {
         body{
@@ -853,9 +839,6 @@ body{
                }
             }
 
-
-
-
             @media screen and (min-width: 905px) and ( max-width: 1223px) {
         body{
             background-color: rgb(83, 10, 167);
@@ -906,7 +889,6 @@ body{
         display: inline-block;
         margin: 0px 0px 0px 0px;
         padding: 0px 120px 0px 150px;
-
        }
        nav a{
                 text-decoration: none;
@@ -1096,9 +1078,7 @@ body{
              .prix:hover {
                 transform: translateY(0px);
                 border-radius: 9px;
-                
              }
-
                .name{
                   text-decoration: underline;
                   font-size:18px;
